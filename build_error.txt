@@ -1,0 +1,60 @@
+﻿
+> donorhub@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.5
+  - Environments: .env.local, .env
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : Failed to 
+compile.
+At line:1 char:1
++ & "D:\programs file 
+D/node.exe" "C:\Users\Hp\A
+ppData\Roaming\npm/node 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: 
+(Faile    d to 
+compile.:String) [    ], 
+RemoteException
+    + 
+FullyQualifiedErrorId     
+: NativeCommandError
+ 
+
+./lib/stripe.ts:9:5
+Type error: Type 
+'"2024-11-20.acacia"' is 
+not assignable to type 
+'"2025-11-17.clover"'.
+
+[0m [90m  7 |[39m 
+[90m// Initialize Stripe 
+with secret key[39m[0m
+[0m [90m  8 |[39m 
+[36mexport[39m 
+[36mconst[39m stripe 
+[33m=[39m [36mnew[39m 
+[33mStripe[39m(process[
+33m.[39menv[33m.[39m[3
+3mSTRIPE_SECRET_KEY[39m[
+33m,[39m {[0m
+[0m[31m[1m>[22m[39m[
+90m  9 |[39m     
+apiVersion[33m:[39m [32
+m'2024-11-20.acacia'[39m
+[33m,[39m[0m
+[0m [90m    |[39m     
+[31m[1m^[22m[39m[0m
+[0m [90m 10 |[39m     
+typescript[33m:[39m [36
+mtrue[39m[33m,[39m[0m
+[0m [90m 11 |[39m 
+})[33m;[39m[0m
+[0m [90m 12 |[39m[0m
